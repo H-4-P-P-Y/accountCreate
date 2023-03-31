@@ -1,9 +1,15 @@
 Project made by Jakub Freier kl.2AP
+
 Nazwa projektu
+
 createAccount
+
 Cel projektu
+
 wygenerowanie hasła na podstawie danych od użytkownika
+
 Założenia projektu
+
 • Aplikacja konsolowa uruchamiana w systemie Windows 10/11
 •Generowanie jest hasło o liczbie znaków określonej w polu edycyjnym
 • Poszczególne znaki hasła są wybierane losowo z zestawu małych liter
@@ -19,8 +25,9 @@ losowany z cyfr. Podobnie należy postąpić ze znakami specjalnymi (np. drugi z
 • Za zestaw cyfr przyjmuje się kolejne cyfry od 0 do 9
 • Za zestaw znaków specjalnych przyjmuje się znaki: !@#$%^&*()_+-=
 • Hasło oraz zestawy znaków są przechowywane w zmiennych typu napisowego
-Diagram projektu
-Opis projektu Np. Aplikacja składa się z trzech części: okna logowania, weryfikacji danych
+
+Opis projektu 
+Np. Aplikacja składa się z trzech części: okna logowania, weryfikacji danych
 użytkownika oraz zapisania do bazy danych wybranych przez użytkownika produktów. Za cześć
 pierwszą odpowiada:
 • Nazwa funkcji pobierzDane
@@ -28,12 +35,14 @@ pierwszą odpowiada:
 • Parametry funkcji (nazwa parametru, znaczenie parametru)
 • Zwracany typ i opis (nazwa typu i opis co jest zwracane) string stanowisko , zwracana jest
 informacja jakie stanowisko zostało wybrane (musi zostać wybrane poprawnie)
+
 Za cześć drugą:
 • Nazwa funkcji wypiszStanowisko
 • Opis funkcji (krótki opis, co funkcja robi) sprawdza jakie uzytkownik wybral stanowisko i je
 wypisuje
 • Parametry funkcji (nazwa parametru, znaczenie parametru) string stanowisko
 • Zwracany typ i opis (nazwa typu i opis co jest zwracane) funkcja nie zwraca nic
+
 Za trzecią:
 • Nazwa funkcji generujHaslo
 • Opis funkcji (krótki opis, co funkcja robi) funkcja generuje haslo w zakresie podanym przez
