@@ -27,9 +27,11 @@ losowany z cyfr. Podobnie należy postąpić ze znakami specjalnymi (np. drugi z
 • Hasło oraz zestawy znaków są przechowywane w zmiennych typu napisowego
 
 Opis projektu 
+
 Np. Aplikacja składa się z trzech części: okna logowania, weryfikacji danych
 użytkownika oraz zapisania do bazy danych wybranych przez użytkownika produktów. Za cześć
 pierwszą odpowiada:
+
 • Nazwa funkcji pobierzDane
 • Opis funkcji (krótki opis, co funkcja robi) pobiera informacje o stanowisku
 • Parametry funkcji (nazwa parametru, znaczenie parametru)
@@ -37,6 +39,7 @@ pierwszą odpowiada:
 informacja jakie stanowisko zostało wybrane (musi zostać wybrane poprawnie)
 
 Za cześć drugą:
+
 • Nazwa funkcji wypiszStanowisko
 • Opis funkcji (krótki opis, co funkcja robi) sprawdza jakie uzytkownik wybral stanowisko i je
 wypisuje
@@ -44,6 +47,7 @@ wypisuje
 • Zwracany typ i opis (nazwa typu i opis co jest zwracane) funkcja nie zwraca nic
 
 Za trzecią:
+
 • Nazwa funkcji generujHaslo
 • Opis funkcji (krótki opis, co funkcja robi) funkcja generuje haslo w zakresie podanym przez
 uzytkownika
